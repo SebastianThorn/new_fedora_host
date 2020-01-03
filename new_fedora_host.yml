@@ -1,5 +1,11 @@
-- name: Install new Fedora host
-  dnf:
-    name:
-      - emacs-nox
-      - git-core
+---
+- name: Base Fedora install
+  hosts: localhost
+  become: true
+
+  tasks:
+  - name: Install new Fedora host
+    dnf:
+      name:
+        - emacs-nox
+        - git-core
