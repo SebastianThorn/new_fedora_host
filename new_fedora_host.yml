@@ -1,4 +1,9 @@
 ---
+
+# docker run --interactive --tty fedora bash
+# dnf install ansible git-core
+# ansible-pull -U https://github.com/SebastianThorn/new_fedora_host new_fedora_host.yml
+
 - name: Base Fedora install
   hosts: localhost
   become: true
