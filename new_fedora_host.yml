@@ -1,0 +1,5 @@
+- name: Install new Fedora host
+  dnf:
+    name:
+      - emacs-nox
+      - git-core
