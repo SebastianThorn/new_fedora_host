@@ -14,4 +14,6 @@
       name:
         - emacs-nox
         - git-core
+        - procps-ng
+        - tmux
 
