@@ -1,7 +1,7 @@
 ---
 
 # docker run --interactive --tty fedora bash
-# dnf install ansible git-core
+# dnf install ansible git-core -y
 # ansible-pull -U https://github.com/SebastianThorn/new_fedora_host new_fedora_host.yml
 
 - name: Base Fedora install
